@@ -1,7 +1,6 @@
 //23070123014 Akshit Mathur
 //Aim:Implemention of Classes and Objects to Define Method outside Classes.
 #include <iostream>
-#include <iostream>
 using namespace std;
 
 class Student {
