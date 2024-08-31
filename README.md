@@ -167,24 +167,69 @@ In main() Function:
    - Call student1.printYear() to print the year of study.
 
  6.**End**
+ 
+ ## Algorithm for defining method outside class.
+1.**Start**
+2.**Define Class Student:**
 
+Attributes:
+ - string name
+ - int age
+ - string branch
+ - float result
+ - string year
+3.**Methods:**
+ - void printYear()
+ - Print the message: "I am studying in [year] year"
+In main() Function:
 
+4.**Create and Initialize student1:**
 
+ - Create an object student1 of type Student.
+ - Set student1.name to "Akshit".
+ - Set student1.age to 18.
+ - Set student1.branch to "ENTC".
+ - Set student1.result to 8.00.
+ - Set student1.year to "Second".
+5.**Display Details for student1:**
 
+ - Print "Student1 details:"
+ - Print student1.name
+ - Print student1.branch
+ - Print student1.result
+ - Call student1.printYear() to print "I am studying in Second year"
 
+   6.**End**
 
+  ## Algorithm for volume of cuboid using classes and objects.
+1.**Start**
+2.**Define Class Cuboid:**
+ - Attributes:
+ - float length
+ - float breadth
+ - float height
+ - float volume
+3.***Methods:***
+    **void inputDimensions()**
+   - Prompt the user to enter the length of the cuboid.
+   - Read the length value from the user.
+   - Prompt the user to enter the breadth of the cuboid.
+   - Read the breadth value from the user.
+   - Prompt the user to enter the height of the cuboid.
+   - Read the height value from the user.
+    **void calculateVolume()**
+   - Compute the volume of the cuboid using the formula: volume = length * breadth * height.
+   **void displayVolume()**
+    - Print the volume of the cuboid.
+In main() Function:
 
-
-
-
-
-
-
-
-
-
-
-
+4.**Create Object:**
+ - Create an object cuboid of type Cuboid.
+5.**Call Methods:**
+   - Call cuboid.inputDimensions() to get user input for the cuboid dimensions.
+   - Call cuboid.calculateVolume() to calculate the volume of the cuboid.
+   - Call cuboid.displayVolume() to print the volume of the cuboid.
+6.**End**
 
 ## Conclusion
 We learnt to use the concepts of Class and Objects.
