@@ -94,7 +94,7 @@ int main() {
 
 - Reusability: Classes allow code reuse through inheritance and composition. Once a class is defined, it can be reused in multiple programs or projects, reducing duplication and effort.
 
--Maintainability: By encapsulating data and methods within classes, code becomes easier to maintain. Changes to a class can be made in one place, and all objects of that class will automatically reflect the changes.
+- Maintainability: By encapsulating data and methods within classes, code becomes easier to maintain. Changes to a class can be made in one place, and all objects of that class will automatically reflect the changes.
 
 - Scalability: Object-oriented design supports scalability by allowing the addition of new classes and methods without affecting existing code. This makes it easier to expand and enhance programs over time.
 
@@ -171,8 +171,7 @@ In main() Function:
  ## Algorithm for defining method outside class.
 1.**Start**
 2.**Define Class Student:**
-
-Attributes:
+ - Attributes:
  - string name
  - int age
  - string branch
@@ -225,6 +224,7 @@ In main() Function:
 
 4.**Create Object:**
  - Create an object cuboid of type Cuboid.
+
 5.**Call Methods:**
    - Call cuboid.inputDimensions() to get user input for the cuboid dimensions.
    - Call cuboid.calculateVolume() to calculate the volume of the cuboid.
